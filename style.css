@@ -1,0 +1,110 @@
+html {
+    background-color: rgb(86, 188, 192);
+}
+.screen-box {
+    margin: 15px 7px 0px 7px;
+    background-color: white;
+    border: 1px solid rgb(190, 217, 248);
+    border-radius: 5px;
+}
+
+ .container {
+    padding: 1px 20px 10px 10%;
+}
+
+h1, h2 {
+    color: rgb(57, 81, 109);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text {
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul {
+    padding-left: 0px;
+}
+/*Header Section*/
+section#header h1 {
+    margin-top: 2%;
+    padding-left: 10%;
+    text-shadow: 1rem;
+}
+
+#header > .container {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header img {
+    height: 70px;
+    border-radius: 5%;
+    margin-top: 20px;
+    opacity: 45%;
+}
+
+#header p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/*Summary Section*/
+#summary, #summary h2 {
+    background-color: rgb(57, 81, 109);
+      color:gold;
+}
+
+#summary p {
+    
+    width: 50vw;
+}
+
+#other {
+    background-color: goldenrod;
+}
+
+#other h2 {
+    color: black;
+}
+
+span {
+    color: rgb(86, 188, 192);
+    font-weight: 900;
+}
+
+/*Language section*/
+#language-skills {
+    background-color: #f5f5f5;
+}
+
+/*Other section*/
+#other a {
+    color: rgb(104, 39, 39);
+}
+
+footer {
+    height: 9vh;
+    padding: 7px;
+}
+
+footer > p.text {
+    font-size: 0.9rem;
+    color: rgb(57, 81, 109);
+}
